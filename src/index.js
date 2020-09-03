@@ -75,7 +75,7 @@ module.exports = (
     // Calculate the paddingBottom %
 
     const sourceTags = transcodeResult.videos.map(video => {
-      return `<source src="${video.src}" type="video/${video.fileExtension}">`
+      return `<source src="${video.src}" type="video/${video.fileExtension}" />`
     })
     /*
     console.log(
@@ -132,7 +132,7 @@ module.exports = (
 
             if (rawHTML) {
               // Replace the video node with an inline HTML node.
-              node.type = `html`
+              node.type = `jsx`
               node.value = rawHTML
             }
             return resolve(node)
