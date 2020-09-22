@@ -1,4 +1,4 @@
-# gatsby-remark-videos
+# gatsby-remark-videos (mdx) :D
 
 The intent of this plugin is to aid in the embedding of looping 'html5 gifv'
 like videos from markdown.
