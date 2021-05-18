@@ -105,7 +105,7 @@ module.exports = (
     }
 
     const videoTag = `
-    <video autoplay loop preload playsinline style="${videoAspectStyle}" crossOrigin="anonymous" muted>
+    <video autoplay loop preload="true" playsinline style="${videoAspectStyle}" crossOrigin="anonymous" muted>
       ${sourceTags.join('')}
     </video>
     `
